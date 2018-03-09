@@ -630,8 +630,6 @@ ul.social-buttons {
   .portfolio-caption {
     height: 100%;
   }
-  /* <div class="skills-container">
-    <div>
-      <img src="img/mysql.png" alt="my sql"/>
-      <p> My Sql</p>
-    </div> */
+  .masthead {
+    height: 100vh;
+  }
