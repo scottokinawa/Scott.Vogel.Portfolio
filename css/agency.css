@@ -598,3 +598,40 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+  .center-content {
+    text-align: center;
+  }
+  .skills-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-container img {
+    height: 50px;
+  }
+  .skills-container p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  @media (max-width: 1000px) {
+    .skills-container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .skills-container img {
+      height: 50px;
+    }
+  }
+  .portfolio-item {
+    overflow: hidden;
+  }
+  .portfolio-caption {
+    height: 100%;
+  }
+  /* <div class="skills-container">
+    <div>
+      <img src="img/mysql.png" alt="my sql"/>
+      <p> My Sql</p>
+    </div> */
